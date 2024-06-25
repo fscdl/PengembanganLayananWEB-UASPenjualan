@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('themes/ezone/assets/img/favicon.png') }}">
+        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('themes/ezone/assets/img/baru/icon1.jpeg') }}">
 		
 		<!-- all css here -->
         <link rel="stylesheet" href="{{ asset('themes/ezone/assets/css/bootstrap.min.css') }}">
@@ -46,79 +46,12 @@
                             <nav>
                                 <ul>
                                     <li><a href="/">home</a>
-                                        <ul class="single-dropdown">
-                                            <li><a href="index.html">Fashion</a></li>
-                                            <li><a href="index-fashion-2.html">Fashion style 2</a></li>
-                                            <li><a href="index-fruits.html">fruits</a></li>
-                                            <li><a href="index-book.html">book</a></li>
-                                            <li><a href="index-electronics.html">electronics</a></li>
-                                            <li><a href="index-electronics-2.html">electronics style 2</a></li>
-                                            <li><a href="index-food.html">food & drink</a></li>
-                                            <li><a href="index-furniture.html">furniture</a></li>
-                                            <li><a href="index-handicraft.html">handicraft</a></li>
-                                            <li><a target="_blank" href="index-smart-watch.html">smart watch</a></li>
-                                            <li><a href="index-sports.html">sports</a></li>
-                                        </ul>
                                     </li>
-                                    <li><a href="#">pages</a>
-                                        <ul class="single-dropdown">
-                                            <li><a href="about-us.html">about us</a></li>
-                                            <li><a href="menu-list.html">menu list</a></li>
-                                            <li><a href="login.html">login</a></li>
-                                            <li><a href="register.html">register</a></li>
-                                            <li><a href="cart.html">cart page</a></li>
-                                            <li><a href="checkout.html">checkout</a></li>
-                                            <li><a href="wishlist.html">wishlist</a></li>
-                                            <li><a href="contact.html">contact</a></li>
-                                        </ul>
+                                    <li><a href="#">Supplier</a>
                                     </li>
-                                    <li><a href="{{ url('products') }}">shop</a>
-                                        <div class="category-menu-dropdown shop-menu">
-                                            <div class="category-dropdown-style category-common2 mb-30">
-                                                <h4 class="categories-subtitle"> shop layout</h4>
-                                                <ul>
-                                                    <li><a href="shop-grid-2-col.html"> grid 2 column</a></li>
-                                                    <li><a href="shop-grid-3-col.html"> grid 3 column</a></li>
-                                                    <li><a href="shop.html">grid 4 column</a></li>
-                                                    <li><a href="shop-grid-box.html">grid box style</a></li>
-                                                    <li><a href="shop-list-1-col.html"> list 1 column</a></li>
-                                                    <li><a href="shop-list-2-col.html">list 2 column</a></li>
-                                                    <li><a href="shop-list-box.html">list box style</a></li>
-                                                    <li><a href="cart.html">shopping cart</a></li>
-                                                    <li><a href="wishlist.html">wishlist</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="category-dropdown-style category-common2 mb-30">
-                                                <h4 class="categories-subtitle"> product details</h4>
-                                                <ul>
-                                                    <li><a href="product-details.html">tab style 1</a></li>
-                                                    <li><a href="product-details-2.html">tab style 2</a></li>
-                                                    <li><a href="product-details-3.html"> tab style 3</a></li>
-                                                    <li><a href="product-details-4.html">sticky style</a></li>
-                                                    <li><a href="product-details-5.html">sticky style 2</a></li>
-                                                    <li><a href="product-details-6.html">gallery style</a></li>
-                                                    <li><a href="product-details-7.html">gallery style 2</a></li>
-                                                    <li><a href="product-details-8.html">fixed image style</a></li>
-                                                    <li><a href="product-details-9.html">fixed image style 2</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="mega-banner-img">
-                                                <a href="single-product.html">
-                                                    <img src="{{ asset('themes/ezone/assets/img/banner/18.jpg') }}" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
+                                    <li><a href="{{ url('products') }}">Produk</a> 
                                     </li>
-                                    <li><a href="blog.html">blog</a>
-                                        <ul class="single-dropdown">
-                                            <li><a href="blog.html">blog 3 colunm</a></li>
-                                            <li><a href="blog-2-col.html">blog 2 colunm</a></li>
-                                            <li><a href="blog-sidebar.html">blog sidebar</a></li>
-                                            <li><a href="blog-details.html">blog details</a></li>
-                                            <li><a href="blog-details-sidebar.html">blog details 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">contact</a></li>
+                                    <li><a href="{{ url('products') }}">Kategori</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -169,62 +102,12 @@
                                 <nav id="mobile-menu-active">
                                     <ul class="menu-overflow">
                                         <li><a href="#">HOME</a>
-                                            <ul>
-                                                <li><a href="index.html">Fashion</a></li>
-                                                <li><a href="index-fashion-2.html">Fashion style 2</a></li>
-                                                <li><a href="index-fruits.html">Fruits</a></li>
-                                                <li><a href="index-book.html">book</a></li>
-                                                <li><a href="index-electronics.html">electronics</a></li>
-                                                <li><a href="index-electronics-2.html">electronics style 2</a></li>
-                                                <li><a href="index-food.html">food & drink</a></li>
-                                                <li><a href="index-furniture.html">furniture</a></li>
-                                                <li><a href="index-handicraft.html">handicraft</a></li>
-                                                <li><a href="index-smart-watch.html">smart watch</a></li>
-                                                <li><a href="index-sports.html">sports</a></li>
-                                            </ul>
                                         </li>
-                                        <li><a href="#">pages</a>
-                                            <ul>
-                                                <li><a href="about-us.html">about us</a></li>
-                                                <li><a href="menu-list.html">menu list</a></li>
-                                                <li><a href="login.html">login</a></li>
-                                                <li><a href="register.html">register</a></li>
-                                                <li><a href="cart.html">cart page</a></li>
-                                                <li><a href="checkout.html">checkout</a></li>
-                                                <li><a href="wishlist.html">wishlist</a></li>
-                                                <li><a href="contact.html">contact</a></li>
-                                            </ul>
+                                        <li><a href="#">Supplier</a>
                                         </li>
-                                        <li><a href="#">shop</a>
-                                            <ul>
-                                                <li><a href="shop-grid-2-col.html"> grid 2 column</a></li>
-                                                <li><a href="shop-grid-3-col.html"> grid 3 column</a></li>
-                                                <li><a href="shop.html">grid 4 column</a></li>
-                                                <li><a href="shop-grid-box.html">grid box style</a></li>
-                                                <li><a href="shop-list-1-col.html"> list 1 column</a></li>
-                                                <li><a href="shop-list-2-col.html">list 2 column</a></li>
-                                                <li><a href="shop-list-box.html">list box style</a></li>
-                                                <li><a href="product-details.html">tab style 1</a></li>
-                                                <li><a href="product-details-2.html">tab style 2</a></li>
-                                                <li><a href="product-details-3.html"> tab style 3</a></li>
-                                                <li><a href="product-details-4.html">sticky style</a></li>
-                                                <li><a href="product-details-5.html">sticky style 2</a></li>
-                                                <li><a href="product-details-6.html">gallery style</a></li>
-                                                <li><a href="product-details-7.html">gallery style 2</a></li>
-                                                <li><a href="product-details-8.html">fixed image style</a></li>
-                                                <li><a href="product-details-9.html">fixed image style 2</a></li>
-                                            </ul>
+                                        <li><a href="#">Produk</a>
                                         </li>
-                                        <li><a href="#">BLOG</a>
-                                            <ul>
-                                                <li><a href="blog.html">blog 3 colunm</a></li>
-                                                <li><a href="blog-2-col.html">blog 2 colunm</a></li>
-                                                <li><a href="blog-sidebar.html">blog sidebar</a></li>
-                                                <li><a href="blog-details.html">blog details</a></li>
-                                                <li><a href="blog-details-sidebar.html">blog details 2</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html"> Contact  </a></li>
+                                        <li><a href="#"> Kategori  </a></li>
                                     </ul>
                                 </nav>							
                             </div>
@@ -275,113 +158,9 @@
         
         @yield('content')
        
-        <!-- services -->
-        <div class="services-area wrapper-padding-4 gray-bg pt-120 pb-80">
-            <div class="container-fluid">
-                <div class="services-wrapper">
-                    <div class="single-services mb-40">
-                        <div class="services-img">
-                            <img src="{{ asset('themes/ezone/assets/img/icon-img/26.png') }}" alt="">
-                        </div>
-                        <div class="services-content">
-                            <h4>Free Shippig</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
-                        </div>
-                    </div>
-                    <div class="single-services mb-40">
-                        <div class="services-img">
-                            <img src="{{ asset('themes/ezone/assets/img/icon-img/27.png') }}" alt="">
-                        </div>
-                        <div class="services-content">
-                            <h4>24/7 Support</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
-                        </div>
-                    </div>
-                    <div class="single-services mb-40">
-                        <div class="services-img">
-                            <img src="{{ asset('themes/ezone/assets/img/icon-img/28.png') }}" alt="">
-                        </div>
-                        <div class="services-content">
-                            <h4>Secure Payments</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end -->
+      
 
-        <!-- footer -->
-        <footer class="footer-area">
-            <div class="footer-top-area pt-70 pb-35 wrapper-padding-5">
-                <div class="container-fluid">
-                    <div class="widget-wrapper">
-                        <div class="footer-widget mb-30">
-                            <a href="#"><img src="{{ asset('themes/ezone/assets/img/logo/2.png') }}" alt=""></a>
-                            <div class="footer-about-2">
-                                <p>There are many variations of passages of Lorem Ipsum <br>the majority have suffered alteration in some form, by <br> injected humour</p>
-                            </div>
-                        </div>
-                        <div class="footer-widget mb-30">
-                            <h3 class="footer-widget-title-5">Contact Info</h3>
-                            <div class="footer-info-wrapper-3">
-                                <div class="footer-address-furniture">
-                                    <div class="footer-info-icon3">
-                                        <span>Address: </span>
-                                    </div>
-                                    <div class="footer-info-content3">
-                                        <p>66 Sipu road Rampura Banasree <br>USA- 10800</p>
-                                    </div>
-                                </div>
-                                <div class="footer-address-furniture">
-                                    <div class="footer-info-icon3">
-                                        <span>Phone: </span>
-                                    </div>
-                                    <div class="footer-info-content3">
-                                        <p>+8801 (33) 515609735 <br>+8801 (66) 223352333</p>
-                                    </div>
-                                </div>
-                                <div class="footer-address-furniture">
-                                    <div class="footer-info-icon3">
-                                        <span>E-mail: </span>
-                                    </div>
-                                    <div class="footer-info-content3">
-                                        <p><a href="#"> email@domain.com</a> <br><a href="#"> domain@mail.info</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="footer-widget mb-30">
-                            <h3 class="footer-widget-title-5">Newsletter</h3>
-                            <div class="footer-newsletter-2">
-                                <p>Send us your mail or next updates</p>
-                                <div id="mc_embed_signup" class="subscribe-form-5">
-                                    <form action="http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                        <div id="mc_embed_signup_scroll" class="mc-form">
-                                            <input type="email" value="" name="EMAIL" class="email" placeholder="Enter mail address">
-                                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                            <div class="mc-news" aria-hidden="true"><input type="text" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef" tabindex="-1" value=""></div>
-                                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom ptb-20 gray-bg-8">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <div class="copyright-furniture">
-                                <p>Copyright © <a href="https://hastech.company/">HasTech</a> 2018 . All Right Reserved.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+       
         <!-- end -->
         <div id="loader" style="display: none;">
             <div id="loading" style="z-index:99999;position: fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,.3);display: flex;justify-content:center;align-items: center;" class="mx-auto">
